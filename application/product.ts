@@ -1,4 +1,4 @@
-interface IProduct {
+export interface IProduct {
   isValid(): boolean;
   enable(): void;
   disable(): void;
